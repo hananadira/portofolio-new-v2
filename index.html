@@ -547,98 +547,50 @@
     <!-- section kontak -->
     <section class="wrapper-content tentang" id="contact">
         <h1 class="text-center my-5">Contact Me</h1>
-            <br><br>
+            
         <!-- content -->
         <div class="container kontak">
             <div class="row justify-content-center">
                 <div class="col-md-12">
                     <div class="wrapper">
                     <div class="row">
-                        <!-- <div class="col-md-3">
-                            <div class="dbox w-100 text-center">
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <span class="fa fa-map-marker"></span>
-                                </div>
-                                <div class="text">
-                                    <p>
-                                        <span>Alamat: </span> Tulis alamatnya di sini
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                       
                         
-                        <div class="col-md-3">
-                            <div class="dbox w-100 text-center">
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <span class="fa fa-phone"></span>
-                                </div>
-                                <div class="text">
-                                    <p>
-                                        <span>Alamat: </span> Tulis alamatnya di sini
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3">
-                            <div class="dbox w-100 text-center">
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <span class="fa fa-paper-plane"></span>
-                                </div>
-                                <div class="text">
-                                    <p>
-                                        <span>Alamat: </span> Tulis alamatnya di sini
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3">
-                            <div class="dbox w-100 text-center">
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <span class="fa fa-paper-plane"></span>
-                                </div>
-                                <div class="text">
-                                    <p>
-                                        <span>Alamat: </span> Tulis alamatnya di sini
-                                    </p>
-                                </div>
-                            </div>
-                        </div> -->
-                        
-                        <div class="row no-gutters mb-5 mt-5">
-                            <div class="col-md-12">
-                                <div class="contact-wrap w-100 p-md-5 p-4">
-                                    <h3>Hubungi Saya</h3>
+                        <!-- <div class="row no-gutters mb-5 mt-5"> -->
+                            <!-- <div class="col-md-12"> -->
+                                <!-- <div class="contact-wrap w-100 p-md-5 p-4"> -->
+                                    <!-- <h3 style="text-align: center;">Hubungi Saya</h3> -->
                                     <!-- <div class="mb-4">
                                         Silahkan hubungi saya jika anda sedang mencari karyawan.
                                     </div> -->
-                                    <form id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
-                                        <div class="row">
-                                            <div class="col-md-6 mb-2 mt-2">
-                                                <div class="form-group">
-                                                    <label for="name" class="label">Name</label>
-                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Nama">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mb-2 mt-2">
-                                                <div class="form-group">
-                                                    <label for="email" class="label">Email</label>
-                                                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12 mb-2 mt-2">
-                                                <div class="form-group">
-                                                    <label for="subject" class="label">Subject</label>
-                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12 mb-2 mt-2">
-                                                <div class="form-group">
-                                                    <label for="pesan" class="label">Pesan</label>
-                                                    <textarea name="message" class="form-control" cols="30" rows="6" placeholder="Pesan..." spellcheck="false"></textarea>
-                                                </div>
-                                            </div>
+                                    <form action="https://formspree.io/f/movwldbg" method="POST" class="p-4 shadow rounded-4 mt-5" style="max-width: 700px; margin: auto;">
+                                        <!-- <h3 class="text-center mb-4">Hubungi Saya</h3> -->
+
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label">Nama</label>
+                                            <input type="text" class="form-control" name="name" id="name" required>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input type="email" class="form-control" name="email" id="email" required>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="subject" class="form-label">Subject</label>
+                                            <input type="text" class="form-control" name="subject" id="subject" required>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="message" class="form-label">Pesan</label>
+                                            <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
+                                        </div>
+
+                                        <!-- Optional: redirect ke halaman terima kasih -->
+                                        <!-- <input type="hidden" name="_redirect" value="https://yourwebsite.com/terimakasih.html"> -->
+
+                                        <div class="d-grid">
+                                            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
                                         </div>
                                     </form>
                                 </div>
