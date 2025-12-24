@@ -24,7 +24,7 @@
          <nav class="nav">
             <div class="logo">
                 <a href="index.html" style="text-decoration: none;">
-                    <h2>Portofolio <br><span id="black-title">Hana Nadira Savaira</span></h2>
+                    <!-- <h2>Portofolio <br><span id="black-title">Hana Nadira Savaira</span></h2> -->
                 </a>
             </div>
          
@@ -66,31 +66,90 @@
      <!-- section Home -->
       <section class="wrapper_home" id="home">
         <div class="container">
-            <div class="grid-cols-2">
-
-                <div class="grid-item-1">
-                    <h1 class="main-heading">
-                        Selamat Datang di <span>Portofolio Hana Nadira Savaira.</span>
-                    </h1>
+            <div class="home-content">
+                <div class="home-text">
+                    <div class="home-intro">
+                        <span class="greeting">Hello, I'm</span>
+                        <h1 class="main-heading">
+                            <span class="name-highlight">Hana Nadira Savaira</span>
+                        </h1>
+                        <div class="typing-container">
+                            <span class="typing-text">Software Developer</span>
+                        </div>
+                    </div>
+                    
                     <p class="info-text">
-                        Portofolio ini berisi tentang pengalaman, keahlian, dan proyek yang telah saya kerjakan serta sertifikat yang sudah saya dapatkan. 
-                        Saya adalah lulusan dari SMKS Wikrama Bogor yang memiliki ketertarikan dalam bidang teknologi informasi dan pengembangan perangkat lunak.
+                        Saya adalah lulusan dari SMKS Wikrama Bogor yang memiliki passion dalam bidang teknologi informasi 
+                        dan pengembangan perangkat lunak. Portfolio ini menampilkan perjalanan saya dalam dunia programming, 
+                        dari project pertama hingga aplikasi yang lebih kompleks.
                     </p>
 
-                    <div class="btn_wrapper">
-                        <button class="btn_home view_more_btn">
-                            <a href="#contact" style="text-decoration: none; color: white;">Kontak Saya <i class="fa fa-phone"></i></a>
-                        </button>
-
-                        <button class="btn_home documentation_btn">
-                           <a href="https://www.canva.com/design/DAGcsXrtkso/5e273vx-UaUnuoPuxATqDw/edit" style="text-decoration: none; color: white;">Info Detail</a>
-                        </button>
+                    <div class="home-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">14+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Certificates</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Learning</span>
+                        </div>
                     </div>
 
+                    <div class="btn_wrapper">
+                        <a href="https://wa.me/6287873640025?text=Halo%20Hana!%20Saya%20melihat%20portfolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi%20lebih%20lanjut%20mengenai%20project%20dan%20pengalaman%20Anda.%20Terima%20kasih!" class="btn-primary" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Kontak Saya
+                        </a>
+                        <a href="#portofolio" class="btn-secondary">
+                            <i class="fas fa-eye"></i>
+                            Lihat Portfolio
+                        </a>
+                    </div>
+
+                    <div class="social-links-home">
+                        <a href="https://linkedin.com/in/hananadira" class="social-link" title="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/hananadira" class="social-link" title="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://instagram.com/hananadira" class="social-link" title="Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/6287873640025?text=Halo%20Hana!%20Saya%20melihat%20portfolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi." class="social-link" title="WhatsApp" target="_blank"></a>
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="grid-item-2">
-                    <div class="team_img_wrapper">
-                        <img src="image/porto_foto.jpg" alt="">
+                
+                <div class="home-image">
+                    <div class="image-container">
+                        <div class="image-bg-shape"></div>
+                        <img src="image/porto_foto.jpg" alt="Hana Nadira Savaira" class="profile-image">
+                        <div class="floating-elements">
+                            <div class="floating-item item-1">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="floating-item item-2">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="floating-item item-3">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="floating-item item-4">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <div class="floating-item item-5">
+                                <i class="fab fa-laravel"></i>
+                            </div>
+                            <div class="floating-item item-6">
+                                <i class="fab fa-react"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -144,339 +203,447 @@
         </section>
 
       <!-- section portofolio -->
-       <section id="portofolio">
-        <div class="container pt-4 pb-4 mt-2 mb-3 fasilitas">
-            <h1 class="text-center my-5">Portofolio</h1>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6">
-                    <br><br>
-                    <h2>1. Web Personal</h2>
-                    <p>
-                       Pertama kali saya mengenal dunia pemogramman, saya membuat web personal ini untuk menampilkan biodata saya. <br>
-                        Project ini saya buat menggunakan :
-                    </p>
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/css.png" alt="">
+       <section class="wrapper-content" id="portofolio">
+        <div class="container">
+            <h1 class="text-center mb-5" style="color: var(--lg-heading); font-weight: 600;">Portofolio</h1>
+            <p class="text-center mb-5" style="color: var(--text-content); font-size: 18px; max-width: 800px; margin: 0 auto 4rem;">
+                Berikut adalah kumpulan proyek yang telah saya kerjakan selama perjalanan belajar dan pengembangan skill programming saya.
+            </p>
+            
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                
+                <!-- Project 1 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/personal.png" alt="Web Personal" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Web Personal</h4>
+                                <p>Website personal pertama saya</p>
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <button class="btn_home view_more_btn">
-                       <a href="https://github.com/hananadira/personalyaa" style="text-decoration: none; color: white;">GitHub</a>
-                    </button>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Web Personal</h3>
+                            <span class="portfolio-category">Frontend</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Pertama kali saya mengenal dunia pemrograman, saya membuat web personal ini untuk menampilkan biodata saya.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/css.png" alt="CSS" title="CSS">
+                        </div>
+                        <a href="https://github.com/hananadira/personalyaa" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="image/portofolio/personal.png" alt="" class="img-fluid">
+
+                <!-- Project 2 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/web-porto.png" alt="Web Portfolio" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Web Portfolio</h4>
+                                <p>Portfolio website showcase</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Web Portfolio</h3>
+                            <span class="portfolio-category">Frontend</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Web Portfolio untuk menampilkan biodata, hasil project yang saya kerjakan, dan sertifikat yang saya dapatkan.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/css.png" alt="CSS" title="CSS">
+                        </div>
+                        <a href="https://github.com/hananadira/profilrhana" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
                 </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/layoutsHTMLCSS.png" alt="Layout Sederhana" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Layout Sederhana</h4>
+                                <p>Static website layout</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Layout Sederhana</h3>
+                            <span class="portfolio-category">Frontend</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Website ini masih tergolong statis, hanya menampilkan data saja dengan layout yang sederhana dan clean.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/css.png" alt="CSS" title="CSS">
+                        </div>
+                        <a href="https://github.com/hananadira/layout_html-css" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/webDinamis.png" alt="Web Dinamis" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Web Dinamis</h4>
+                                <p>Dynamic website with database</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Web Dinamis</h3>
+                            <span class="portfolio-category">Full Stack</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Website Dinamis ini sudah terhubung ke database, kita bisa melakukan CRUD pada data yang ada di dalamnya.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/css.png" alt="CSS" title="CSS">
+                            <img src="image/tools/php-removebg-preview.png" alt="PHP" title="PHP">
+                            <img src="image/tools/sql-removebg-preview.png" alt="SQL" title="SQL">
+                        </div>
+                        <a href="https://github.com/hananadira/web_dinamis" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/oprasimtkPHP.png" alt="Operasi MTK" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Operasi MTK</h4>
+                                <p>Math calculator application</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Operasi MTK</h3>
+                            <span class="portfolio-category">Backend</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Aplikasi untuk menghitung operasi matematika seperti tambah, kurang, kali, dan bagi dengan interface yang sederhana.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/php-removebg-preview.png" alt="PHP" title="PHP">
+                            <img src="image/tools/sql-removebg-preview.png" alt="SQL" title="SQL">
+                        </div>
+                        <a href="#" class="portfolio-btn disabled">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/oopRentalMotor.png" alt="Rental Motor" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Rental Motor</h4>
+                                <p>Motor rental system</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Sistem Rental Motor</h3>
+                            <span class="portfolio-category">Backend</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Perhitungan harga penggunaan rental motor berapa lama dalam hitungan per jam dengan sistem OOP.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/php-removebg-preview.png" alt="PHP" title="PHP">
+                            <img src="image/tools/sql-removebg-preview.png" alt="SQL" title="SQL">
+                        </div>
+                        <a href="#" class="portfolio-btn disabled">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/project-1.png" alt="Website Masjid" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Website Masjid</h4>
+                                <p>Mosque management system</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Website Masjid</h3>
+                            <span class="portfolio-category">Full Stack</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Berisi informasi masjid dan infaq masjid yang masuk. Bisa input infaq dengan 2 pilihan antara barang (emas) atau uang.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/css.png" alt="CSS" title="CSS">
+                            <img src="image/tools/js-removebg-preview.png" alt="JavaScript" title="JavaScript">
+                            <img src="image/tools/php-removebg-preview.png" alt="PHP" title="PHP">
+                            <img src="image/tools/sql-removebg-preview.png" alt="SQL" title="SQL">
+                            <img src="image/tools/bootstrap.png" alt="Bootstrap" title="Bootstrap">
+                        </div>
+                        <a href="https://github.com/hananadira/aas-webMasjid" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/project-2.png" alt="Website Apotek" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Website Apotek</h4>
+                                <p>Pharmacy management system</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Website Apotek</h3>
+                            <span class="portfolio-category">Full Stack</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Berisi informasi obat yang ada di apotek dan sistem transaksi pembelian obat dengan sistem kasir manual.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/css.png" alt="CSS" title="CSS">
+                            <img src="image/tools/js-removebg-preview.png" alt="JavaScript" title="JavaScript">
+                            <img src="image/tools/php-removebg-preview.png" alt="PHP" title="PHP">
+                            <img src="image/tools/sql-removebg-preview.png" alt="SQL" title="SQL">
+                        </div>
+                        <a href="https://github.com/hananadira/laravel_apotek" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/project-3.png" alt="CRUD Absensi" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>CRUD Absensi</h4>
+                                <p>Attendance management system</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>CRUD Absensi</h3>
+                            <span class="portfolio-category">Full Stack</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Berisi informasi absensi siswa dengan fitur CRUD lengkap untuk tambah, edit, dan hapus data absensi siswa.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/css.png" alt="CSS" title="CSS">
+                            <img src="image/tools/php-removebg-preview.png" alt="PHP" title="PHP">
+                            <img src="image/tools/sql-removebg-preview.png" alt="SQL" title="SQL">
+                        </div>
+                        <a href="https://github.com/hananadira/CRUD_larav" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/iKantin.png" alt="Website iKantin" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Website iKantin</h4>
+                                <p>Canteen management system</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Website iKantin</h3>
+                            <span class="portfolio-category">Full Stack</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Berisi informasi makanan yang tersedia di kantin dengan sistem transaksi pembelian makanan dan kasir manual.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/css.png" alt="CSS" title="CSS">
+                            <img src="image/tools/js-removebg-preview.png" alt="JavaScript" title="JavaScript">
+                            <img src="image/tools/php-removebg-preview.png" alt="PHP" title="PHP">
+                            <img src="image/tools/sql-removebg-preview.png" alt="SQL" title="SQL">
+                        </div>
+                        <a href="https://github.com/hananadira/iKantin" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 11 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/industri_vue.js.png" alt="Website Vue.js" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Website Vue.js</h4>
+                                <p>Vue.js frontend project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Website Vue.js</h3>
+                            <span class="portfolio-category">Frontend</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Dibuat pada saat kelas industri di sekolah. Website ini berfokus pada tampilan dengan menggunakan Vue.js framework.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/node-js-removebg-preview.png" alt="Node.js" title="Node.js">
+                        </div>
+                        <a href="#" class="portfolio-btn disabled">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 12 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/WebAppKeterlambatan.jpg" alt="Website Keterlambatan" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Website Keterlambatan</h4>
+                                <p>Student lateness management</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Website Keterlambatan</h3>
+                            <span class="portfolio-category">Full Stack</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Pengelolaan data siswa yang terlambat dengan 2 role: admin dan pembimbing siswa. Fitur CRUD lengkap dan export data.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/js-removebg-preview.png" alt="JavaScript" title="JavaScript">
+                            <img src="image/tools/laravel.png" alt="Laravel" title="Laravel">
+                            <img src="image/tools/sql-removebg-preview.png" alt="SQL" title="SQL">
+                            <img src="image/tools/Tailwind.png" alt="Tailwind" title="Tailwind CSS">
+                        </div>
+                        <a href="https://github.com/hananadira/Web-App-Keterlambatan" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 13 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/pw.png" alt="Project Work" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Project Work</h4>
+                                <p>E-commerce admin panel</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Project Work</h3>
+                            <span class="portfolio-category">Full Stack</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Sistem penjualan domba petarung dengan panel admin untuk CRUD penuh, tracking penjualan, dan laporan penjualan.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/sql-removebg-preview.png" alt="SQL" title="SQL">
+                            <img src="image/tools/js-removebg-preview.png" alt="JavaScript" title="JavaScript">
+                            <img src="image/tools/react.png" alt="React" title="React">
+                            <img src="image/tools/redux.jpeg" alt="Redux" title="Redux">
+                        </div>
+                        <a href="https://github.com/hananadira/ecom-pdpargamulya-admin" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 14 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="image/portofolio/ukk.png" alt="Website Kasir" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h4>Website Kasir</h4>
+                                <p>Cashier management system</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Website Kasir</h3>
+                            <span class="portfolio-category">Full Stack</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Sistem penjualan kasir dengan 2 role: admin dan employee. Fitur CRUD lengkap dan export data penjualan.
+                        </p>
+                        <div class="tech-stack">
+                            <img src="image/tools/html.png" alt="HTML" title="HTML">
+                            <img src="image/tools/js-removebg-preview.png" alt="JavaScript" title="JavaScript">
+                            <img src="image/tools/laravel.png" alt="Laravel" title="Laravel">
+                            <img src="image/tools/sql-removebg-preview.png" alt="SQL" title="SQL">
+                            <img src="image/tools/flowbite.png" alt="Flowbite" title="Flowbite">
+                        </div>
+                        <a href="https://github.com/hananadira/ukk_kasir" class="portfolio-btn" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
             </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="image/portofolio/web-porto.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <br><br>
-                    <h2>2. Web Protofolio</h2>
-                    <p>Web Portofolio untuk menampilkan biodata, hasil project yang saya kerjakan, dan sertifikat yang saya dapatkan.
-                        <br> Project ini saya buat menggunakan :
-                    </p>
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/css.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                       <a href="https://github.com/hananadira/profilrhana" style="text-decoration: none; color: white;">GitHub</a>
-                    </button>
-                    
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <br><br>
-                    <h2>3. Layout Sederhana</h2>
-                    <p>
-                        Website ini masih tergolong statis, hanya menampilkan data saja.
-                        <br> Project ini saya buat menggunakan :
-                    </p>
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/css.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                       <a href="https://github.com/hananadira/layout_html-css" style="text-decoration: none; color: white;">GitHub</a>
-                    </button>
-                </div>
-                <div class="col-md-6">
-                    <img src="image/portofolio/layoutsHTMLCSS.png" alt="" class="img-fluid">
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="image/portofolio/webDinamis.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <br>
-                    <h2>4. Web Dinamis</h2>
-                    <p>
-                        Website Dinamis ini sudah terhubung ke database, kita bisa melakukan CRUD pada data yang ada di dalam nya.
-                        <br> Project ini saya buat menggunakan :
-                    </p>
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/css.png" alt="">
-                        <img src="image/tools/php-removebg-preview.png" alt="">
-                        <img src="image/tools/sql-removebg-preview.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                       <a href="https://github.com/hananadira/web_dinamis" style="text-decoration: none; color: white;">GitHub</a>
-                    </button>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <br><br>
-                    <h2>5. Oprasi MTK</h2>
-                    <p>
-                        Menghitung oprasi matematika bisa di tambah, kurang, kali, bagi.
-                        <br> Project ini saya buat menggunakan :
-                    </p> 
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/php-removebg-preview.png" alt="">
-                        <img src="image/tools/sql-removebg-preview.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                        GitHub <a href=""></a>
-                    </button>
-                </div>
-                <div class="col-md-6">
-                    <img src="image/portofolio/oprasimtkPHP.png" alt="" class="img-fluid">
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="image/portofolio/oopRentalMotor.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <br>
-                    <h2>6. Oprasi Rental Motor</h2>
-                    <p>
-                        Perhitungan harga penggunaan rental motor berapa lama dalam hitungan per jam.
-                        <br> Project ini saya buat menggunakan :
-                    </p> 
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/php-removebg-preview.png" alt="">
-                        <img src="image/tools/sql-removebg-preview.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                        GitHub <a href=""></a>
-                    </button>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <br><br>
-                    <h2>7. Website Masjid</h2>
-                    <p>
-                        Berisi informasi masjid dan infaq masjid yang masuk. Kita juga bisa untuk input infaq dengan 2 pilihan antara 
-                        barang (emas) ataupun uang. 
-                    </p>
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/css.png" alt="">
-                        <img src="image/tools/js-removebg-preview.png" alt="">
-                        <img src="image/tools/php-removebg-preview.png" alt="">
-                        <img src="image/tools/sql-removebg-preview.png" alt="">
-                        <img src="image/tools/bootstrap.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                       <a href="https://github.com/hananadira/aas-webMasjid" style="text-decoration: none; color: white;">GitHub</a>
-                    </button>
-                </div>
-                <div class="col-md-6">
-                    <img src="image/portofolio/project-1.png" alt="" class="img-fluid">
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="image/portofolio/project-2.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <br>
-                    <h2>8. Website Apotek</h2>
-                    <p>
-                        Berisi informasi obat apa saja yang ada di apotek dan di sini kita bisa 
-                        melakukan transaksi pembelian obat, namun masih menual untuk tahap pembayaran (seperti sistem kasir manual).
-                        <br> Project ini saya buat menggunakan :
-                    </p> 
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/css.png" alt="">
-                        <img src="image/tools/js-removebg-preview.png" alt="">
-                        <img src="image/tools/php-removebg-preview.png" alt="">
-                        <img src="image/tools/sql-removebg-preview.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                       <a href="https://github.com/hananadira/laravel_apotek" style="text-decoration: none; color: white;">GitHub</a>
-                    </button>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6">
-                    <br><br>
-                    <h2>9. CRUD Absensi</h2>
-                    <p>
-                        Berisi informasi absesni siswa dan di sini kita bisa melakukan aksi 
-                        tambah, edit, hapus data absensi siswa.
-                        <br> Project ini saya buat menggunakan :
-                    </p>
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/css.png" alt="">
-                        <img src="image/tools/php-removebg-preview.png" alt="">
-                        <img src="image/tools/sql-removebg-preview.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                       <a href="https://github.com/hananadira/CRUD_larav" style="text-decoration: none; color: white;">GitHub</a>
-                    </button>
-                </div>
-                <div class="col-md-6">
-                    <img src="image/portofolio/project-3.png" alt="" class="img-fluid">
-                </div>
-            </div>
-            <br><br><br>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="image/portofolio/iKantin.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    
-                    <h2>10. Website iKantin</h2>
-                    <p>
-                        Berisi informasi makanan apa saja yang tersedia di kantin dan di sini kita bisa 
-                        melakukan transaksi pembelian makanan, namun masih menual untuk tahap pembayaran (seperti sistem kasir manual).
-                        <br> Project ini saya buat menggunakan :
-                    </p> 
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/css.png" alt="">
-                        <img src="image/tools/js-removebg-preview.png" alt="">
-                        <img src="image/tools/php-removebg-preview.png" alt="">
-                        <img src="image/tools/sql-removebg-preview.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                       <a href="https://github.com/hananadira/iKantin" style="text-decoration: none; color: white;">GitHub</a>
-                    </button>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6">
-                    <br><br>
-                    <h2>11. Website</h2>
-                    <p>
-                        Saya membuat ini pada saat kelas industri di sekolah. Website ini hanya berfokus pada tampilan saja.
-                        <br> Project ini saya buat menggunakan :
-                    </p>
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/node-js-removebg-preview.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                        GitHub <a href=""></a>
-                    </button>
-                </div>
-                <div class="col-md-6">
-                    <img src="image/portofolio/industri_vue.js.png" alt="" class="img-fluid">
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="image/portofolio/WebAppKeterlambatan.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <br>
-                    <h2>12. Website Keterlambatan</h2>
-                    <p>
-                        Berfokus pada pengelolaan data siswa yang terlambat. Terdapat 2 role di dalam nya ada admin dan pembimbing siswa. 
-                        Untuk role admin bisa melakukan CRUD pada setiap menu yang ada di website ini dan dapat melakukan ecport pada menu keterlambatan. Namun untuk role pembimbing siswa 
-                        hanya bisa melihat data siswa berdasarkan rayon dan bisa export data siswa pada menu keterlambatan. 
-                        <br> Project ini saya buat menggunakan :
-                    </p>
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/js-removebg-preview.png" alt="">
-                        <img src="image/tools/laravel.png" alt="">
-                        <img src="image/tools/sql-removebg-preview.png" alt="">
-                        <img src="image/tools/Tailwind.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                        <a href="https://github.com/hananadira/Web-App-Keterlambatan" style="text-decoration: none; color: white;">GitHub</a>
-                    </button>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6">
-                    <br><br>
-                    <h2>13. Project Work</h2>
-                    <p>
-                        Website ini berfokus pada sistem penjualan domba petarung. Untuk tampilan website nya ada untuk user dan admin. Namun 
-                        project yang saya pegang itu pada bagian admin. Di admin bisa melakukan CRUD penuh dan trek setiap penjualan yang 
-                        baru saja dilakukan oleh user. Terdapat menu report laporan penjualan juga supaya mempermudah untuk pelacakan 
-                        data yang sudah masuk order.
-                        <br> Project ini saya buat menggunakan :
-                    </p>
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                       <img src="image/tools/sql-removebg-preview.png" alt="">
-                       <img src="image/tools/js-removebg-preview.png" alt="">
-                       <img src="image/tools/react.png" alt="">
-                       <img src="image/tools/redux.jpeg" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                        <a href="https://github.com/hananadira/ecom-pdpargamulya-admin" style="text-decoration: none; color: white;">GitHub</a>
-                    </button>
-                </div>
-                <div class="col-md-6">
-                    <img src="image/portofolio/pw.png" alt="" class="img-fluid">
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="image/portofolio/ukk.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <br><br>
-                    <h2>14. Website Kasir</h2>
-                    <p>
-                        Website ini berfokus pada sistem penjualan kasir. Terdapat 2 role yaitu admin dan employee. 
-                        Untuk role admin bisa melakukan CRUD pada setiap menu yang ada di website kecuali pada bagian menu penjualan ini hanya
-                        bisa dilakukan oleh employee selain itu juga dapat melakukan export data penjualan. Namun untuk role employee hanya bisa
-                        melakukan penambahan data penjualan dan export data penjualan.
-                        <br> Project ini saya buat menggunakan :
-                    </p>
-                    <div class="card-img" style="display: flex; width: 50px; height: 50px;">
-                        <img src="image/tools/html.png" alt="">
-                        <img src="image/tools/js-removebg-preview.png" alt="">
-                        <img src="image/tools/laravel.png" alt="">
-                        <img src="image/tools/sql-removebg-preview.png" alt="">
-                        <img src="image/tools/flowbite.png" alt="">
-                    </div> <br>
-                    <button class="btn_home view_more_btn">
-                        <a href="https://github.com/hananadira/ukk_kasir" style="text-decoration: none; color: white;">GitHhub</a>
-                    </button>
-                </div>
-            </div>
-           </div>
+        </div>
        </section>
 
       <!-- section sertifikat -->
@@ -545,71 +712,98 @@
       
 
     <!-- section kontak -->
-    <section class="wrapper-content tentang" id="contact">
-        <h1 class="text-center my-5">Contact Me</h1>
+    <section class="wrapper-content" id="contact">
+        <div class="container">
+            <h1 class="text-center mb-5" style="color: var(--lg-heading); font-weight: 600;">Contact Me</h1>
+            <p class="text-center mb-5" style="color: var(--text-content); font-size: 18px; max-width: 600px; margin: 0 auto 3rem;">
+                Silahkan hubungi saya jika Anda tertarik untuk berkolaborasi atau memiliki pertanyaan tentang proyek saya.
+            </p>
             
-        <!-- content -->
-        <div class="container kontak">
             <div class="row justify-content-center">
-                <div class="col-md-12">
-                    <div class="wrapper">
-                    <div class="row">
-                       
+                <!-- Contact Info -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="contact-info-card">
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Email</h5>
+                                <p>nananadiraaa@gmail.com</p>
+                            </div>
+                        </div>
                         
-                        <!-- <div class="row no-gutters mb-5 mt-5"> -->
-                            <!-- <div class="col-md-12"> -->
-                                <!-- <div class="contact-wrap w-100 p-md-5 p-4"> -->
-                                    <!-- <h3 style="text-align: center;">Hubungi Saya</h3> -->
-                                    <!-- <div class="mb-4">
-                                        Silahkan hubungi saya jika anda sedang mencari karyawan.
-                                    </div> -->
-                                    <form action="https://formspree.io/f/movwldbg" method="POST" class="p-4 shadow rounded-4 mt-5" style="max-width: 700px; margin: auto;">
-                                        <!-- <h3 class="text-center mb-4">Hubungi Saya</h3> -->
-
-                                        <div class="mb-3">
-                                            <label for="name" class="form-label">Nama</label>
-                                            <input type="text" class="form-control" name="name" id="name" required>
-                                        </div>
-
-                                        <div class="mb-3">
-                                            <label for="email" class="form-label">Email</label>
-                                            <input type="email" class="form-control" name="email" id="email" required>
-                                        </div>
-
-                                        <div class="mb-3">
-                                            <label for="subject" class="form-label">Subject</label>
-                                            <input type="text" class="form-control" name="subject" id="subject" required>
-                                        </div>
-
-                                        <div class="mb-3">
-                                            <label for="message" class="form-label">Pesan</label>
-                                            <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
-                                        </div>
-
-                                        <!-- Optional: redirect ke halaman terima kasih -->
-                                        <!-- <input type="hidden" name="_redirect" value="https://yourwebsite.com/terimakasih.html"> -->
-
-                                        <div class="d-grid">
-                                            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
-                                        </div>
-                                    </form>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Telepon</h5>
+                                <p>+62 878-7364-0025</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Lokasi</h5>
+                                <p>Bogor, Jawa Barat</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h5>Follow Me</h5>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/hananadira1401/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/hananadira" class="social-icon"><i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/nanannss14/?next=%2F" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                <a href="https://wa.me/6287873640025?text=Halo%20Hana!%20Saya%20tertarik%20dengan%20portfolio%20Anda%20dan%20ingin%20berdiskusi%20lebih%20lanjut." class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="col-lg-8 col-md-6">
+                    <div class="contact-form-card">
+                        <h3 class="form-title">Kirim Pesan</h3>
+                        <form action="https://formspree.io/f/movwldbg" method="POST" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Nama Lengkap</label>
+                                    <input type="text" class="form-control" name="name" id="name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email" required>
                                 </div>
                             </div>
-                            <!-- <div class="col-md-5 d-flex">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.0139229978163!2d106.843879!3d-6.645192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c89505b4c37d%3A0x307fc4a38e65fa2b!2sSMK%20Wikrama%20Bogor!5e0!3m2!1sid!2sid!4v1746270897299!5m2!1sid!2sid" 
-                                width="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div> -->
-                        </div>
+                            
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" name="subject" id="subject" required>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="message" class="form-label">Pesan</label>
+                                <textarea name="message" class="form-control" id="message" rows="6" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i>
+                                Kirim Pesan
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-     </section>
+    </section>
 
       <!-- footer -->
-       <br><br><br>
-       <footer class="footer">
+       <footer class="footer-static">
         <div>Hana Nadira Savaira | 2024</div>
        </footer>
 
